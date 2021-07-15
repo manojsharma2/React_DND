@@ -73,7 +73,7 @@ function App() {
     // This function generate preview for item which is dragging
     // This function generate preview for item which is dragging
     const generatePreview = ({ itemType, item, style }) => {
-        const newID = parseInt(item.id) - 1;
+        const newID = parseInt(item.index);
         return <div data-item-type={itemType} className="preview" style={style}>{cards[newID].content ? cards[newID].content : null}</div>
     };
     const moveCard = useCallback(
