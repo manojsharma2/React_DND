@@ -17,7 +17,7 @@ const GalleryCard = (props: any) => {
           component="img"
           loading={"lazy"}
           alt="Contemplative Reptile"
-          height={mediaHeight}
+          height={'240px'}
           image={media}
           title="Contemplative Reptile"
         />

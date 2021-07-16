@@ -9,222 +9,275 @@ import './index.css'
 import GalleryCard from './GalleryCard'
 const data = [
     {
-        id: 1, name: 'marketWatch', content: {
-            profileName: "1",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 2, name: 'marketWatch', content: {
-            profileName: "2",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 3, name: 'marketWatch', content: {
-            profileName: "3",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 4, name: 'marketWatch', content: {
-            profileName: "4",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 5, name: 'marketWatch', content: {
-            profileName: "5",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 6, name: 'marketWatch', content: {
-            profileName: "6",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 7, name: 'marketWatch', content: {
-            profileName: "7",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 8, name: 'marketWatch', content: {
-            profileName: "8",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 9, name: 'marketWatch', content: {
-            profileName: "9",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 10, name: 'marketWatch', content: {
-            profileName: "10",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 11, name: 'marketWatch', content: {
-            profileName: "11",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 12, name: 'marketWatch', content: {
-            profileName: "12",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 13, name: 'marketWatch', content: {
-            profileName: "13",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 14, name: 'marketWatch', content: {
-            profileName: "14",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 15, name: 'marketWatch', content: {
-            profileName: "15",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 16, name: 'marketWatch', content: {
-            profileName: "16",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 17, name: 'marketWatch', content: {
-            profileName: "17",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 18, name: 'marketWatch', content: {
-            profileName: "18",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 19, name: 'marketWatch', content: {
-            profileName: "19",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 20, name: 'marketWatch', content: {
-            profileName: "20",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 21, name: 'marketWatch', content: {
-            profileName: "21",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 22, name: 'marketWatch', content: {
-            profileName: "22",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 23, name: 'marketWatch', content: {
-            profileName: "23",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 24, name: 'marketWatch', content: {
-            profileName: "24",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 25, name: 'marketWatch', content: {
-            profileName: "25",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 26, name: 'marketWatch', content: {
-            profileName: "26",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 27, name: 'marketWatch', content: {
-            profileName: "27",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 28, name: 'marketWatch', content: {
-            profileName: "28",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 29, name: 'marketWatch', content: {
-            profileName: "29",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 30, name: 'marketWatch', content: {
-            profileName: "30",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 31, name: 'marketWatch', content: {
-            profileName: "31",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 32, name: 'marketWatch', content: {
-            profileName: "32",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 33, name: 'marketWatch', content: {
-            profileName: "33",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 34, name: 'marketWatch', content: {
-            profileName: "34",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 35, name: 'marketWatch', content: {
-            profileName: "35",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }, {
-        id: 36, name: 'marketWatch', content: {
-            profileName: "36",
-            profileImage: "https://picsum.photos/1920/1080",
-            personDetails: "Working as Front End Developer at TPG."
-        },
-    }
+        id: 1, name: 'marketWatch', content: <GalleryCard
+            name={'1'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${0}`}
+            itemIndex={0}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 2, name: 'marketWatch', content: <GalleryCard
+            name={'2'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${1}`}
+            itemIndex={1}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 3, name: 'marketWatch', content: <GalleryCard
+            name={'3'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${2}`}
+            itemIndex={2}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 4, name: 'marketWatch', content: <GalleryCard
+            name={'4'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${3}`}
+            itemIndex={3}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 5, name: 'marketWatch', content: <GalleryCard
+            name={'5'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${4}`}
+            itemIndex={4}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 6, name: 'marketWatch', content: <GalleryCard
+            name={'6'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${5}`}
+            itemIndex={5}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 7, name: 'marketWatch', content: <GalleryCard
+            name={'7'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${6}`}
+            itemIndex={6}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 8, name: 'marketWatch', content: <GalleryCard
+            name={'8'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${7}`}
+            itemIndex={7}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 9, name: 'marketWatch', content: <GalleryCard
+            name={'9'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${8}`}
+            itemIndex={8}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 10, name: 'marketWatch', content: <GalleryCard
+            name={'10'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${9}`}
+            itemIndex={9}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 11, name: 'marketWatch', content: <GalleryCard
+            name={'11'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${10}`}
+            itemIndex={10}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 12, name: 'marketWatch', content: <GalleryCard
+            name={'12'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${11}`}
+            itemIndex={11}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 13, name: 'marketWatch', content: <GalleryCard
+            name={'13'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${12}`}
+            itemIndex={12}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 14, name: 'marketWatch', content: <GalleryCard
+            name={'14'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${13}`}
+            itemIndex={13}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 15, name: 'marketWatch', content: <GalleryCard
+            name={'15'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${14}`}
+            itemIndex={14}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 16, name: 'marketWatch', content: <GalleryCard
+            name={'16'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${15}`}
+            itemIndex={15}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 17, name: 'marketWatch', content: <GalleryCard
+            name={'17'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${16}`}
+            itemIndex={16}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 18, name: 'marketWatch', content: <GalleryCard
+            name={'18'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${17}`}
+            itemIndex={17}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 19, name: 'marketWatch', content: <GalleryCard
+            name={'19'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${18}`}
+            itemIndex={18}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 20, name: 'marketWatch', content: <GalleryCard
+            name={'20'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${19}`}
+            itemIndex={19}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 21, name: 'marketWatch', content: <GalleryCard
+            name={'21'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${20}`}
+            itemIndex={20}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 22, name: 'marketWatch', content: <GalleryCard
+            name={'22'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${21}`}
+            itemIndex={21}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 23, name: 'marketWatch', content: <GalleryCard
+            name={'23'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${22}`}
+            itemIndex={22}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 24, name: 'marketWatch', content: <GalleryCard
+            name={'24'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${23}`}
+            itemIndex={23}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 25, name: 'marketWatch', content: <GalleryCard
+            name={'25'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${24}`}
+            itemIndex={24}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 26, name: 'marketWatch', content: <GalleryCard
+            name={'26'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${25}`}
+            itemIndex={25}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 27, name: 'marketWatch', content: <GalleryCard
+            name={'27'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${26}`}
+            itemIndex={26}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 28, name: 'marketWatch', content: <GalleryCard
+            name={'28'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${27}`}
+            itemIndex={27}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 29, name: 'marketWatch', content: <GalleryCard
+            name={'29'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${28}`}
+            itemIndex={28}
+            mediaHeight={"250px"}
+        />,
+    },
+    {
+        id: 30, name: 'marketWatch', content: <GalleryCard
+            name={'30'}
+            description={'hasdjkhasdhas lksdakljdasd'}
+            media={`https://picsum.photos/1920/1080?random=${29}`}
+            itemIndex={29}
+            mediaHeight={"250px"}
+        />,
+    },
 ];
 const HTML5toTouch = {
     backends: [
@@ -252,15 +305,8 @@ function App() {
     const generatePreview = ({ itemType, item, style }) => {
         const newID = parseInt(item.index);
         const $Content = cards[newID].content
-        return <div data-item-type={itemType} className="preview" style={style}>{cards[newID].content ? <>
-            <GalleryCard
-                name={$Content.profileName}
-                description={$Content.personDetails}
-                media={`${$Content.profileImage}?random=${item.id}`}
-                key={item.index}
-                itemIndex={item.index}
-                mediaHeight={item.index === 0 ? "250px" : "250px"}
-            />
+        return <div data-item-type={itemType} className="preview" style={style}>{$Content ? <>
+            {$Content}
         </> : null}</div>
     };
     const moveCard = useCallback(

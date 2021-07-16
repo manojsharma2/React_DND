@@ -90,14 +90,15 @@ export const Card: FC<CardProps> = ({ id, text, index, moveCard }) => {
 		drag(drop(ref));
 		return (
 					<div ref={ref} style={{ opacity }} className={`image_gallery_item_${index}`} data-handler-id={handlerId}>
-						<GalleryCard
+						{/* <GalleryCard
 							name={text.profileName}
 							description={text.personDetails}
 							media={`${text.profileImage}?random=${id}`}
 							key={index}
 							itemIndex={index}
 							mediaHeight={index === 0 ? "650px" : "250px"}
-						/>
+						/> */}
+        {text}
 					</div>
 		);
 };
