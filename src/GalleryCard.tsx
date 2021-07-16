@@ -7,12 +7,14 @@ import {
   CardActions,
   Button
 } from "@material-ui/core";
+import LazyLoad from "react-lazyload";
 
 const GalleryCard = (props: any) => {
   const { media, mediaHeight, name, description, itemIndex } = props;
   return (
     <>
       <Card className={`image_gallery_item_${itemIndex}`}>
+        <LazyLoad height={200}>
         <CardMedia
           component="img"
           loading={"lazy"}
@@ -21,6 +23,8 @@ const GalleryCard = (props: any) => {
           image={media}
           title="Contemplative Reptile"
         />
+          {/* <img src={media} alt={itemIndex +"_image"} /> */}
+        </LazyLoad>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {name}

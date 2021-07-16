@@ -7,6 +7,8 @@ import React, { useCallback, useState, useEffect} from "react";
 import update from "immutability-helper";
 import './index.css'
 import GalleryCard from './GalleryCard'
+
+
 const data = [
     {
         id: 1, name: 'marketWatch', content: <GalleryCard
@@ -329,7 +331,7 @@ function App() {
                 setIsFetching(false);
                 return;
             }
-            const newDat = data.slice(cards.length, cards.length + 12);
+            const newDat = data.slice(cards.length, cards.length + 30);
             console.log('newDat', newDat)
             setCards((prevState) => [...prevState, ...newDat]);
             setIsFetching(false);
