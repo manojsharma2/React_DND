@@ -2,21 +2,11 @@ import { FC, useRef } from "react";
 import { useDrag, useDrop, DropTargetMonitor } from "react-dnd";
 import { ItemTypes } from "./ItemTypes";
 import { XYCoord } from "dnd-core";
-
-const style = {
-		border: "1px dashed gray",
-		padding: "0.5rem 1rem",
-		marginBottom: ".5rem",
-		backgroundColor: "white",
-		cursor: "move",
-		width: '100%',
-		height: '100%',
-		margin:"10px 10px",
-};
+import GalleryCard from './GalleryCard'
 
 export interface CardProps {
 		id: any;
-		text: string;
+		text: any;
 		index: number;
 		moveCard: (dragIndex: number, hoverIndex: number) => void;
 }
@@ -99,8 +89,15 @@ export const Card: FC<CardProps> = ({ id, text, index, moveCard }) => {
 		const opacity = isDragging ? 0 : 1;
 		drag(drop(ref));
 		return (
-					<div ref={ref} style={{ ...style, opacity }} data-handler-id={handlerId}>
-							{text}
+					<div ref={ref} style={{ opacity }} className={`image_gallery_item_${index}`} data-handler-id={handlerId}>
+						<GalleryCard
+							name={text.profileName}
+							description={text.personDetails}
+							media={`${text.profileImage}?random=${id}`}
+							key={index}
+							itemIndex={index}
+							mediaHeight={index === 0 ? "650px" : "250px"}
+						/>
 					</div>
 		);
 };
